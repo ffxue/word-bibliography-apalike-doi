@@ -4,16 +4,16 @@ APA-like bibliography template (APALike-Frank.XSL) for extending native APA in "
 ## Features
 - Base style : APA v6
 - Simple and clear in-line citations : 
- -- `<max author names>` : Long authors namelist supressed (max to display = 2)
- -- `<comma>` : Comma "," supressed
- -- `<in-line title>` : long title supressed
- -- `<repeated authors>` : Repeated authors' initials supressed
+ - - `<max author names>` : Long authors namelist supressed (max to display = 2)
+ - - `<comma>` : Comma "," supressed
+ - - `<in-line title>` : long title supressed
+ - - `<repeated authors>` : Repeated authors' initials supressed
 - DOI (and URL) emphasized for academic resources :
- -- `<important input field>` :  For articles, conference papers, book, book chapter, report, etc.
- -- `<auto URL>` : Generates a clickable link based on DOI or URL, e.g., "doi:10.1016/j.landurbplan.2022.104505" -> doi:[10.1016/j.landurbplan.2022.104505](https://doi.org/10.1016/j.landurbplan.2022.104505")
+ - - `<important input field>` :  For articles, conference papers, book, book chapter, report, etc.
+ - - `<auto URL>` : Generates a clickable link based on DOI or URL, e.g., "doi:10.1016/j.landurbplan.2022.104505" -> doi:[10.1016/j.landurbplan.2022.104505](https://doi.org/10.1016/j.landurbplan.2022.104505")
 - ArXiv preprints :
- -- `<input field>` :  Type "arXiv:1801.01234" in the "Pages"
- -- `<auto URL>` : Generates clickable link to the ArXiv Preprint, e.g., "arXiv:1801.01234" -> <https://arxiv.org/abs/1801.01234>
+ - - `<input field>` :  Type "arXiv:1801.01234" in the "Pages"
+ - - `<auto URL>` : Generates clickable link to the ArXiv Preprint, e.g., "arXiv:1801.01234" -> <https://arxiv.org/abs/1801.01234>
 
 ## Install
 - `Windows` : Copy the .xsl file to "%appdata%/Microsoft/Bibliography/Style"
